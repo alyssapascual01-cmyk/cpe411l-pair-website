@@ -1,0 +1,110 @@
+/* Global */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(180deg, #fafafa, #f1f1f1);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  background-color: #111;
+  padding: 14px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 14px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+nav a:hover {
+  color: #ffb6c1;
+}
+
+/* Main content */
+main {
+  padding: 40px 25px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+h3 {
+  margin-top: 35px;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* FAQ list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #fff;
+  margin: 8px auto;
+  padding: 12px;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Card-style sections */
+section {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+/* Links */
+a {
+  transition: all 0.3s ease;
+}
+
+/* Footer (optional if you add one later) */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  main {
+    padding: 25px 15px;
+  }
+}
